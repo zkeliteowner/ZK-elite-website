@@ -145,12 +145,12 @@ export default function Home({ setPage }: HomeProps) {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, delay: 0.2 }}
-              className="relative lg:-mt-16"
+              className="relative lg:-mt-48 lg:translate-y-[-40px]"
             >
-              <div className="hero-3d-canvas h-[500px] md:h-[600px] w-full flex items-center justify-center rounded-2xl bg-transparent relative group overflow-hidden">
+              <div className="hero-3d-canvas h-[500px] md:h-[600px] lg:h-[750px] w-full flex items-center justify-center rounded-2xl bg-transparent relative group overflow-hidden">
                 <Spline 
                   scene="https://prod.spline.design/G8PVxEmlvYH3g3fI/scene.splinecode"
                   className="w-full h-full"
