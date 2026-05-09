@@ -77,8 +77,8 @@ export default function Home({ setPage }: HomeProps) {
         title1="Elevate Your"
         title2="Digital Vision"
       >
-        <section className="min-h-screen pt-32 pb-20 px-6 flex items-center relative z-10">
-          <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-16 items-center">
+        <section className="pt-40 pb-20 px-6 relative z-10 w-full">
+          <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:items-center">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -148,14 +148,14 @@ export default function Home({ setPage }: HomeProps) {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, delay: 0.2 }}
-              className="relative"
+              className="relative lg:-mt-16"
             >
-              <div className="hero-3d-canvas border-2 border-dashed border-gold/20 h-[500px] w-full flex items-center justify-center rounded-2xl bg-white/5 relative group overflow-hidden">
+              <div className="hero-3d-canvas h-[500px] md:h-[600px] w-full flex items-center justify-center rounded-2xl bg-transparent relative group overflow-hidden">
                 <Spline 
                   scene="https://prod.spline.design/G8PVxEmlvYH3g3fI/scene.splinecode"
                   className="w-full h-full"
                 />
-                <div className="absolute inset-0 bg-gradient-to-tr from-gold/5 to-transparent pointer-events-none group-hover:opacity-10 opacity-20 transition-opacity" />
+                <div className="absolute inset-0 bg-gradient-radial from-transparent to-[#030303]/80 pointer-events-none" />
               </div>
               
               <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">

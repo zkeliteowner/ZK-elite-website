@@ -12,7 +12,7 @@ const founders = [
     name: 'Zaid Iqbal',
     role: 'Founder & Lead Instructor',
     specialty: 'Senior Web Developer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544168190-79c17527004f?q=80&w=1976&auto=format&fit=crop',
     bio: "As a web development instructor and agency founder, Zaid focuses on practical, industry-relevant skills. His leadership philosophy: every project is not merely code — it's a client's hard-earned dream.",
   },
   {
